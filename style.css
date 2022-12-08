@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+body,ul,li,p {
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+body{
+    background-color:gray ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: cyan;
+    color:#000;
+}
+p{
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+#primeira{
+    width:350px ;
+    height: 350px;
+}
+
+#segunda{
+    width: 350px;
+    height: 350px;
+}
+
+#terceira{
+    width: 350px;
+    height: 350px;
+
+}
+
+
+
+.flex{
+    display: flex;
+  
+   
+}
+
+.header{
+    background-color:#1d1e20 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;   
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: tomato;
+}
+
+/*CSS Flexbox*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.flex > div {
+    flex: 1  1 200px;
+    margin: 10px;
+}
+footer{
+    background-color:#1d1e20 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: center;
+    padding: 20px;   
+}
+
